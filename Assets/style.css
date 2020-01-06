@@ -1,0 +1,13 @@
+.page-title {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .5em;
+}
+.form-group {
+    max-width: 50%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.btn {
+    margin-left: 20px;
+}
