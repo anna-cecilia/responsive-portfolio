@@ -1,57 +1,50 @@
-.logo-container {
-    margin-top: 30px;
-    justify-content: center;
+.logo {
+  text-align: center;
+  margin-top: 40px;
 }
-.navbar {
-    text-align: center;
+
+.navbar-nav {
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing:  0.1em;;
 }
-.page-title {
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: .5em;
+
+
+/* about section starts here*/
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .5em;
+  font-size:4vw;
+  justify-content: center;
 }
+
+.desc {
+  align-items: center;
+}
+
+.item {
+  margin: auto;
+}
+.btn {
+  margin-left: 200px;
+}
+/* about section ends here */
+
+
+/*contact page starts here*/
 .form-group {
     max-width: 50%;
     margin-left: 20px;
     margin-top: 30px;
 }
-.btn {
-    margin-left: 20px;
+form {
+  width: 60%;
+  margin-left: 50px;
 }
-.about-me {
-    margin-left: 10px;
-    margin-top: 80px;
-    width: 50%;
-    float: left;
-}
-.profile-image {
-    float: left;
-}
-.responsive-div {  
-    display: inline-block;
-    width: 500px;
-}
-@media screen and (max-width:1024px) {
-    .responsive-div {
-        width: 500px;
-        height: 500px;
-    }
-}
-@media screen and (max-width:768px) {
-    .responsive-div {
-    width: 400px;
-    height: 400px;
-    }
-}
-@media screen and (max-width:414px) {
-    .responsive-div {
-    width: 300px;
-    height: 300px;
-    }
-}
-.btn {
-    margin-left: 200px;
-}
+/*contact page ends here*/
+
+/*portfolio section starts here*/
 .work {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -59,7 +52,8 @@
   }
 .wrapper {
     display: block;
-    margin: auto;
+    /* margin: auto; */
+    padding:55px 0;
   }
   
 .wrapper .row {
@@ -67,23 +61,35 @@
   }
   
 .wrapper img {
-    width: 33.3%;
+    width: 33%;
     padding: 5px;
   }
-.footer {
-    position:absolute;
-    background-color: #333;
-    color: white;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 30px;
-    margin-top: 30px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    }
-    /* unvisited link */
-a:link {
+/*portfolio section ends here*/
+
+/*footer section starts here*/
+footer {
+  /* position:absolute; */
+  background-color: #333;
+  color: white;
+  /* bottom: 0; */
+  /* left: 0; */
+  /* width: 100%;
+  height: 30px; */
+  /* margin-top: 30px; */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-wrapper {
+  padding: 40px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+  /* unvisited link */
+  a:link {
     color: white;
   }
   
@@ -91,16 +97,14 @@ a:link {
   a:visited {
     color: #ececec;
   }
-  #page-container {
+  /*footer sections ends here*/
+
+  /* #page-container {
     position: relative;
-    min-height: 100vh;
-  }
+  } */
   
-  #content-wrap {
+  /* #content-wrap {
     padding-bottom: 2.5rem;    
     /* Footer height */
-  }
-  form {
-    width: 60%;
-    margin-left: 50px;
-  }
+  /* } */ 
+  
